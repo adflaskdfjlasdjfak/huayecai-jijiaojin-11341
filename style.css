@@ -60,9 +60,6 @@ h1 span { display: block; }
   transform: rotate(-2deg);
 }
 .gift-image { display: block; width: 100%; height: auto; border-radius: 16px; }
-.picture-sparkle { position: absolute; color: #e88cac; text-shadow: 0 2px 8px #fff; }
-.sparkle-one { top: -21px; right: -16px; font-size: 30px; }
-.sparkle-two { bottom: -14px; left: -20px; font-size: 22px; }
 .address-form { display: flex; flex-direction: column; margin-top: 28px; }
 .address-form label { margin: 0 0 9px 2px; color: #8f4b64; font-size: 15px; font-weight: 700; }
 .address-form textarea {
