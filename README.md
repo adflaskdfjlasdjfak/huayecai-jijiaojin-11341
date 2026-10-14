@@ -4,13 +4,15 @@
 
 ## 发布
 
-1. 将本目录中的文件上传到 GitHub 仓库根目录。
-2. 在仓库的 **Settings → Pages** 中选择 **Deploy from a branch**、`main` 和 `/ (root)`。
-3. 站点地址为 `https://<GitHub 用户名>.github.io/<仓库名>/`。
+项目仓库：<https://github.com/adflaskdfjlasdjfak/huayecai-jijiaojin-11341>
+
+网站地址：<https://adflaskdfjlasdjfak.github.io/huayecai-jijiaojin-11341/>
+
+仓库已设置为公开，并已在 **Settings → Pages** 选择 **Deploy from a branch**、`main` 和 `/ (root)`。后续修改可把本目录中的文件上传到仓库根目录。
 
 ## 地址接收
 
-GitHub Pages 只能托管静态页面，不能保管发信密钥或运行数据库。本版本通过 FormSubmit.co 的 AJAX 接口把地址发到站长邮箱。首次使用需要在收件箱中点 FormSubmit 的激活链接；激活后应使用邮件提供的匿名别名，在 `config.js` 设置 `window.GIFT_FORM_ENDPOINT = "https://formsubmit.co/ajax/<别名>"`。不要在仓库中放 Resend API Key、邮箱登录密码或其他服务端密钥。
+GitHub Pages 只能托管静态页面，不能保管发信密钥或运行数据库。本版本通过 FormSubmit.co 的 AJAX 接口把地址发到站长邮箱，表单已经激活。当前 `config.js` 使用收件邮箱地址作为接收端点，因此邮箱地址可在公开网页源码中看到；拿到 FormSubmit 邮件中的匿名别名后，可将其换成 `https://formsubmit.co/ajax/<别名>`。不要在仓库中放 Resend API Key、邮箱登录密码或其他服务端密钥。
 
 重新填写会再次发出一封标题为“鸡脚筋收货地址更正”的邮件，邮件中保留同一提交编号，并注明以更正后的地址为准。
 
